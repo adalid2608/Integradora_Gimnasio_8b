@@ -25,6 +25,42 @@ const MainRoutes = {
             path: '/dashboards/modern',
             component: () => import('@/views/dashboards/modern/Modern.vue'),
         }, 
+        // Rutas de modulo Atencion al Cliente
+        {
+            name: "Analytical2",
+            path: "/dashboardmao/analytical",
+            component: () => import("@/views/viewsmao/analytical/Analytical.vue"),
+          },
+          {
+            name: "Ecommerce2",
+            path: "/dashboardmao/ecommerce",
+            component: () => import("@/views/viewsmao/ecommerce/Ecommerce.vue"),
+          },
+          {
+            name: 'Services',
+            path: '/dashboardmao/services_c',
+            component: () => import('@/views/viewsmao/services_c/Services.vue'),
+          },
+          {
+            name: "Modern2",
+            path: "/dashboardmao/modern",
+            component: () => import("@/views/viewsmao/modern/Modern.vue"),
+          },
+          {
+            name: "Calcli",
+            path: "/dasboardmao/calendarCl",
+            component: () => import("@/views/viewsmao/CalendarioCli/cal.vue")
+          },
+          {
+            name: "DasCl",
+            path: "/dasboardmao/dash",
+            component: () => import("@/views/viewsmao/DashboardAd/das.vue")
+          },
+          {
+            name: "FormCl",
+            path: "/dasboardmao/form",
+            component: () => import("@/views/viewsmao/FormClient/FormLayouts.vue")
+          },
 
         //Rutas del modulo de nutrición
         {
