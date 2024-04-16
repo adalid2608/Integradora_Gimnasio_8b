@@ -36,6 +36,43 @@ const sidebarItem: menu[] = [
     icon: ShoppingCartIcon,
     to: "/dashboards/ecommerce",
   },
+  { header: 'Atencion al cliente' },
+  {
+    title: "Quejas y sugerencias",
+    icon: MailBoltIcon,
+    to: "/dashboardmao/analytical",
+  },
+  {
+    title: "Servicios",
+    icon: MailBoltIcon,
+    to: "/dashboardmao/services_c",
+  },
+  {
+    title: "Sesiones(Plan Saludable)",
+    icon: CalendarIcon,
+    to: "/dashboardmao/ecommerce",
+  },
+
+  {
+    title: " Dashboard Satisfaccion al Cliente",
+    icon: ClipboardCheckIcon,
+    to: "/dashboardmao/modern",
+  },
+  {
+    title: "Calendario Usuario",
+    icon: CalendarIcon,
+    to: "/dasboardmao/calendarCl",
+  },
+  {
+    title: "Blog",
+    icon: ChartDonut3Icon,
+    to: "/dasboardmao/dash",
+  },
+  {
+    title: "Satisfaccion al cliente",
+    icon: FormsIcon,
+    to: "/dasboardmao/form"
+  },
 
   {
     title: 'Nutrición',
