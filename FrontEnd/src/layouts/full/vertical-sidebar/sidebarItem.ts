@@ -4,6 +4,11 @@ import {
   ApertureIcon,
   ShoppingCartIcon,
   CircleDotIcon,
+  MailBoltIcon,
+  CalendarIcon,
+  ClipboardCheckIcon,
+  ChartDonut3Icon,
+  FormsIcon,
 
 
 } from 'vue-tabler-icons';
